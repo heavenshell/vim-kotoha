@@ -29,3 +29,7 @@ You can quote a phrase by typing search word after /k.
 Requirement
 -----------
 This plugin need [webapi-vim](https://github.com/mattn/webapi-vim).
+
+Note
+----
+Joke plugin :-p
