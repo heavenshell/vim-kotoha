@@ -17,12 +17,12 @@ function! kotoha#complete_cmd(lead, cmd, pos)
 endfunction
 
 function! kotoha#search_tag(...)
-  let content = s:get(a:000[0], 't')
+  call s:get(a:000[0], 't')
   call s:run()
 endfunction
 
 function! kotoha#search_query(...)
-  let content = s:get(a:000[0], 'k')
+  call s:get(a:000[0], 'k')
   call s:run()
 endfunction
 
