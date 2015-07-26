@@ -57,7 +57,11 @@ endfunction
 function! s:build_query(args)
   let querys = split(a:args, '=')
 
-  return querys[1]
+  if len(querys) > 1
+    return querys[1]
+  endif
+
+  return ''
 endfunction
 
 function! s:get(query, kind)
