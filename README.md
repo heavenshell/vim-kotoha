@@ -10,7 +10,7 @@ Usage
 
 ##Search by word
 
-You can quote a phrase by typing search word after /k.
+You can quote a phrase by typing search word after ``KotohaQuery``.
 
 ```viml
 :set omnifunc=kotoha#complete
@@ -19,11 +19,11 @@ You can quote a phrase by typing search word after /k.
 
 ##Search by tag
 
-You can quote a phrase by typing search word after /k.
+You can quote a phrase by typing search word after ``KotohaTag``.
 
 ```viml
 :set omnifunc=kotoha#complete
-:KotohaTag -query=shiro
+:KotohaTag -query=shirobako
 ```
 
 Requirement
